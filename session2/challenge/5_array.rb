@@ -15,9 +15,7 @@
 # mod_three [0,1,2,3,4,5,6,7] # => [1, 2, 1, 2, 1]
 
 def mod_three(numbers)
-  i = numbers.map { |n| n%3 }
-  n = i.reject { |n| n == 0 }
-  n
+  numbers.map { |n| n % 3 }.reject { |n| n == 0 }
 end
 
 #array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
