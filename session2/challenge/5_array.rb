@@ -20,5 +20,5 @@ def mod_three(numbers)
   n
 end
 
-array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-p mod_three(array)
+#array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+#p mod_three(array)
